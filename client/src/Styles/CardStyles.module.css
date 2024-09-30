@@ -1,0 +1,37 @@
+
+
+.cardDiv{
+    width: 290px;
+    height: 300px;
+    text-align: center; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+
+
+.cardDiv:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+}
+
+.cardImageDiv{
+    height: fit-content;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+.cardImage{
+    max-width: 50%; 
+    height: auto; 
+    margin: 0;
+}
+
+.movieTitle{
+    color: #FFFAFA;
+    text-align: center;
+    margin-top: 5px;
+    font-size:1.2em ;
+}
+
